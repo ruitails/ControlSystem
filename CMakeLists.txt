@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16.0)
 
-include(pico_sdk_import.cmake)
+include(src/pico-sdk/pico_sdk_init.cmake)
 
 project(
     "ControlSystem"
@@ -9,12 +9,9 @@ project(
 
 pico_sdk_init()
 
-# Project/Library Names
-set(LIBRARY_NAME "lib")
-set(EXECUTABLE_NAME "main")
+set(LIB Library)
+set(EXE Executable)
 
-# SUB DIRECTORIES
-add_subdirectory(external)
 add_subdirectory(app)
+add_subdirectory(src)
 
-pico_add_extra_outputs(blink)

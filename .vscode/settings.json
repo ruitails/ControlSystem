@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.ino": "cpp",
+        "blink.h": "c",
+        "stdlib.h": "c"
+    }
+}

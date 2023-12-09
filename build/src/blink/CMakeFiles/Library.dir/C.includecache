@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ruita/OneDrive/Desktop/Workspace/ControlSystem/src/blink/blink.c
+pico/stdlib.h
+/mnt/c/Users/ruita/OneDrive/Desktop/Workspace/ControlSystem/src/blink/pico/stdlib.h
+blink.h
+/mnt/c/Users/ruita/OneDrive/Desktop/Workspace/ControlSystem/src/blink/blink.h
+
+/mnt/c/Users/ruita/OneDrive/Desktop/Workspace/ControlSystem/src/blink/blink.h
+

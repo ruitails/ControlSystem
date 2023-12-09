@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libLibrary.a  CMakeFiles/Library.dir/blink.c.obj
+/usr/bin/arm-none-eabi-ranlib libLibrary.a
